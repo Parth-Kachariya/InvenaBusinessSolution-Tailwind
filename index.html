@@ -311,7 +311,7 @@
         <div class="max-w-340 mx-auto py-20">
             <div class="bg-white grid grid-cols-2">
                 <!-- Icons Section -->
-                <div class="bg-black/90 flex flex-col gap-8 text-white rounded-xl pb-30 py-20 px-10">
+                <div class="bg-black/90 flex flex-col gap-8 text-white rounded-xl pb-30 py-20 px-15">
                     <div class="pb-10">
                         <p class="uppercase text-lg mb-2 text-gray-300">Get In Touch</p>
                         <h4 class="text-5xl font-bold max-w-lg">Get a Dedicated Account Manager</h4>
@@ -347,45 +347,176 @@
                     </div>
                 </div>
                 <!-- Form Div -->
-                <div class=" p-10">
-                    <form>
-                        <div>
-                            <label for="Name">Your Name</label>
-                            <input type="text" name="" id="" placeholder="Your Name" required>
+                <div class=" p-16 ">
+                    <form class="flex flex-col gap-10">
+                        <div class="grid grid-cols-2 gap-5">
+                            <div class="flex flex-col gap-2 my-1">
+                                <label class="ms-2 text-gray-600 font-semibold" for="Name">Your Name</label>
+                                <input class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" type="text" name=""
+                                    id="" placeholder="Your Name" required>
+                            </div>
+                            <div class="flex flex-col gap-2 my-1">
+                                <label class="ms-2 text-gray-600 font-semibold" for="phone">Your Phone</label>
+                                <input class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" type="tel" name=""
+                                    id="" placeholder="Your Mobile No." required>
+                            </div>
+                            <div class="flex flex-col gap-2 my-1">
+                                <label class="ms-2 text-gray-600 font-semibold" for="email">Email Address</label>
+                                <input class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" type="email" name=""
+                                    id="" placeholder="Your Mail Address" required>
+                            </div>
+                            <div class="flex flex-col gap-2 my-1">
+                                <label class="ms-2 text-gray-600 font-semibold" for="Name">Service interested in</label>
+                                <select class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" name="" id=""
+                                    required>
+                                    <option value="">Open This select menu</option>
+                                    <option value="">One</option>
+                                    <option value="">Two</option>
+                                    <option value="">Three</option>
+                                </select>
+                            </div>
+                            <div class=" flex flex-col gap-2 my-1 col-span-2">
+                                <label class="ms-2 text-gray-600 font-semibold" for="address">subject Address</label>
+                                <input class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" type="text" name=""
+                                    id="" placeholder="Personal Tex Planning" required>
+                            </div>
+                            <div class=" flex flex-col gap-2 my-1 col-span-2">
+                                <label class="ms-2 text-gray-600 font-semibold" class="" for="text">How can we
+                                    help?</label>
+                                <textarea class="px-5 py-4 bg-gray-100/90 outline-gray-200 rounded-xl" name="" id=""
+                                    rows="5" placeholder="How Can We help? "></textarea>
+                            </div>
                         </div>
-                        <div>
-                            <label for="phone">Your Phone</label>
-                            <input type="tel" name="" id="" placeholder="Your Mobile No." required>
-                        </div>
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" name="" id="" placeholder="Your Mail Address" required>
-                        </div>
-                        <div>
-                            <label for="Name">Service interested in</label>
-                            <select name="" id="" required>
-                                <option value="">Open This select menu</option>
-                                <option value="">One</option>
-                                <option value="">Two</option>
-                                <option value="">Three</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="address">subject Address</label>
-                            <input type="text" name="" id="" placeholder="Personal Tex Planning" required>
-                        </div>
-                        <div class=" flex flex-col">
-                            <label class="" for="text">How can we help?</label>
-                            <textarea class="border" name="" id="" placeholder="How Can We help? "></textarea>
-                        </div>
+
+                        <button
+                            class=" w-fit px-8 py-4 cursor-pointer hover:bg-gray-200/40 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300">Submit
+                            Message </button>
                     </form>
-
-
                 </div>
             </div>
         </div>
     </section>
     <!-- Get In Touch End  -->
+    <!-- Blog & Article start -->
+    <section class="max-w-340 mx-auto py-15">
+        <div class="flex flex-col justify-center items-center pb-15 pt-5 gap-3">
+            <p class="uppercase text-lg text-gray-500 ">Blog & Article</p>
+            <h5 class="text-4xl font-bold text-gray-800">Recent blog post</h5>
+        </div>
+        <div class="grid grid-cols-3 gap-15">
+            <!-- 1 card -->
+            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+                <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset22.webp" alt="">
+                <div class="flex flex-col gap-2">
+                    <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
+                    <h6
+                        class="hover:text-orange-600 cursor-pointer duration-150 text-gray-800 font-bold text-2xl leading-9">
+                        Building a Brand That from Market Leaders</h6>
+                    <button class="group cursor-pointer w-fit font-medium flex items-center gap-1">
+                        <span
+                            class="size-10 flex items-center justify-center bg-gray-100 rounded-full group-hover:bg-orange-600 transition">
+                            <i class="fa-solid fa-arrow-right text-black group-hover:text-white transition"></i>
+                        </span>
+
+                        <span class="group-hover:text-orange-600 transition">
+                            Read More
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- 2 card -->
+            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+                <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset20.webp" alt="">
+                <div class="flex flex-col gap-2">
+                    <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
+                    <h6
+                        class="hover:text-orange-600 cursor-pointer duration-150 text-gray-800 font-bold text-2xl leading-9">
+                        The quick settle tips of the new ages exist</h6>
+                    <button class="group cursor-pointer w-fit font-medium flex items-center gap-1">
+                        <span
+                            class="size-10 flex items-center justify-center bg-gray-100 rounded-full group-hover:bg-orange-600 transition">
+                            <i class="fa-solid fa-arrow-right text-black group-hover:text-white transition"></i>
+                        </span>
+
+                        <span class="group-hover:text-orange-600 transition">
+                            Read More
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- 3 card -->
+            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+                <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset21.webp" alt="">
+                <div class="flex flex-col gap-2">
+                    <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
+                    <h6
+                        class=" max-w-xs hover:text-orange-600 cursor-pointer duration-150 text-gray-800 font-bold text-2xl leading-9">
+                        Transforming Your Approach to Business</h6>
+                    <button class="group cursor-pointer w-fit font-medium flex items-center gap-1">
+
+                        <span
+                            class="size-10 flex items-center justify-center bg-gray-100 rounded-full group-hover:bg-orange-600 transition">
+                            <i class="fa-solid fa-arrow-right text-black group-hover:text-white transition"></i>
+                        </span>
+
+                        <span class="group-hover:text-orange-600 transition">
+                            Read More
+                        </span>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flex  justify-center gap-4 items-center py-6">
+            <span class="size-2 bg-gray-300 rounded-full "></span>
+            <span class="size-2 bg-gray-300 rounded-full "></span>
+            <span class="size-5   rounded-full ">
+                <img src="./assets/svgs/asset28.svg" alt="">
+            </span>
+            <span class="size-2 bg-gray-300 rounded-full "></span>
+            <span class="size-2 bg-gray-300 rounded-full "></span>
+            <span class="size-2 bg-gray-300 rounded-full "></span>
+        </div>
+    </section>
+    <!-- Blog & Article End -->
+    <!-- Subscribe Newsletter start -->
+    <section
+        style="background-image: url(./assets/images/asset29.webp); background-repeat: no-repeat; background-size: cover; background-position: top;">
+        <div class="max-w-340 mx-auto py-20">
+            <div class="grid grid-cols-2 gap-10">
+                <div class="flex flex-col gap-5 ">
+                    <p class="text-lg text-gray-600">Subscribe Newsletter</p>
+                    <h6 class="text-6xl text-gray-900/90 max-w-150 font-semibold leading-15">Stay Updated with the
+                        Latest News!</h6>
+                </div>
+                <div class=" flex items-center justify-center ">
+                    <div class="w-full bg-orange-600 py-2 px-3 rounded-lg ">
+                        <form class="flex justify-between " mx-auto" action="">
+
+                            <input type="email" placeholder="Enter Email Address"
+                                class=" font-semibold bg-transparent placeholder-white text-white outline-none flex-1" />
+                            <button
+                                class="bg-white font-semibold text-gray-900 px-6 py-3 cursor-pointer rounded-lg hover:bg-orange-600 hover:text-white duration-300 hover:outline-1 outline-orange-500 ">
+                                Subscribe Now
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Newsletter End -->
+    <!-- footer start -->
+    <footer
+        style="background-image: url(./assets/images/asset30.webp); background-repeat: no-repeat; background-size: cover;">
+        <div class="max-w-340 mx-auto px-15 py-10">
+                <div>
+                    
+                </div>
+
+        </div>
+    </footer>
+    <!-- footer End -->
 
 </body>
 
