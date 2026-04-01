@@ -34,8 +34,8 @@
                     </a>
                 </div>
                 <!-- Navigation Link -->
-                <div class="flex flex-wrap justify-between items-center w-4/6">
-                    <div>
+                <div class="flex flex-wrap lg:justify-between items-center  xl:w-4/6">
+                    <div class="hidden lg:block">
                         <ul style="font-family: 'DM Sans', sans-serif !important;" class="flex flex-wrap gap-8 ">
                             <li
                                 class="text-lg font-semibold px-3 py-1 rounded-xl hover:text-white duration-200 active:text-black active:bg-gray-200/80 hover:bg-orange-600 ">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="flex gap-5">
                         <button
-                            class="px-8 py-4 cursor-pointer hover:bg-gray-200/80 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300 ">Book
+                            class=" hidden sm:block  px-8 py-4 cursor-pointer hover:bg-gray-200/80 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300 ">Book
                             a Meeting</button>
                         <button
                             class="py-4 px-5 cursor-pointer hover:bg-orange-600 bg-gray-200/60 rounded-2xl duration-300 "><img
@@ -77,28 +77,28 @@
     <section
         style="background-image: url(./assets/images/asset27.webp); background-repeat: no-repeat; background-size: cover; background-position: top;">
         <div class="max-w-340 mx-auto">
-            <div class=" grid grid-cols-2 gap-4 py-20">
-                <div style="font-family: 'DM Sans', sans-serif !important;" class="flex flex-col gap-6 my-auto">
+            <div class="mx-3 lg:mx-0 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 py-8 lg:py-20">
+                <div style="font-family: 'DM Sans', sans-serif !important;" class=" order-2 lg:order-1 flex flex-col gap-3 lg:gap-6 my-auto">
                     <div class="flex justify-start gap-3">
-                        <img class="w-7" src="./assets/svgs/asset3.svg" alt="">
-                        <p class="text-xl font-medium">Accounting & Tax Services</p>
+                        <img class="lg:w-7" src="./assets/svgs/asset3.svg" alt="">
+                        <p class="text-xl text-gray-600 font-medium">Accounting & Tax Services</p>
                     </div>
-                    <h1 class="text-7xl font-bold text-gray-800">Charlotte Emma</h1>
-                    <p class="text-lg font-[540]  text-gray-500">Porttitor ornare fertum aliquam pharetra facilisis
+                    <h1 class=" text-4xl lg:text-7xl font-bold text-gray-800">Charlotte Emma</h1>
+                    <p class="lg:text-lg font-[540]  text-gray-500">Porttitor ornare fertum aliquam pharetra facilisis
                         gravida risus suscipit Dui feugiat fusce
                         conubia ridiculus tristique parturient</p>
-                    <div class="flex gap-6">
+                    <div class="flex justify-evenly lg:justify-center  lg:gap-6">
                         <button
-                            class="px-8 py-4 cursor-pointer hover:bg-gray-200/40 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300">Get
+                            class="px-4 py-2 lg:px-8 lg:py-4 cursor-pointer hover:bg-gray-200/40 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300">Get
                             A Free Quote</button>
                         <button
-                            class="px-8 py-4 cursor-pointer hover:bg-orange-600 rounded-2xl  hover:text-white text-orange-600 font-semibold duration-300 border">Get
+                            class=" px-4 py-2  lg:px-8 lg:py-4 cursor-pointer hover:bg-orange-600 rounded-2xl  hover:text-white text-orange-600 font-semibold duration-300 border">Get
                             Started</button>
                     </div>
 
                 </div>
                 <!-- image -->
-                <div class="relative">
+                <div class="relative order-1 lg:order-2">
                     <img src="./assets/images/asset4.webp" alt="">
                     <div class=" flex  flex-col gap-1 rounded-2xl  w-fit p-6 absolute top-20 bg-white">
                         <img src="./assets/images/asset5.png" alt="">
@@ -119,14 +119,14 @@
     </section>
     <!-- Hero Section End -->
     <!-- Service Section Start -->
-    <section class="py-15 ">
+    <section class=" mx-3 lg:mx-0 py-7 lg:py-15 ">
         <div class="max-w-340 mx-auto">
-            <div class="flex flex-col gap-2 justify-center items-center">
-                <p class="text-xl font-semibold text-gray-600 uppercase ">Our Services</p>
-                <h2 class="text-4xl font-semibold text-gray-800 ">Effective Services</h2>
+            <div class="flex flex-col lg:gap-2 justify-center items-center">
+                <p class=" text-sm lg:text-xl font-semibold text-gray-600 uppercase ">Our Services</p>
+                <h2 class=" text-2xl lg:text-4xl font-semibold text-gray-800 ">Effective Services</h2>
             </div>
             <!-- card grid -->
-            <div class="grid grid-cols-3 gap-10 py-15">
+            <div class="grid lg:grid-cols-3 gap-10 py-4 lg:py-15">
                 <!-- 1 -->
                 <div class="bg-black/5 p-10 rounded-xl flex flex-col gap-8">
                     <div class="p-5 bg-white w-fit mx-auto rounded-full">
@@ -169,30 +169,29 @@
                             More</button>
                     </div>
                 </div>
-
             </div>
             <!-- WHY CHOOSE US Grid -->
-            <div class="grid grid-cols-2 py-15 gap-20">
+            <div class="grid lg:grid-cols-2 py-6 lg:py-15 gap-8 lg:gap-20">
                 <!-- img div -->
                 <div class="relative">
                     <img src="./assets/images/asset9.webp" alt="">
                     <div
-                        class=" absolute top-18 -left-15 bg-black/85 text-white w-fit px-8 py-15 flex flex-col items-center gap-2 rounded-2xl">
+                        class=" absolute top-18 lg:-left-15 bg-black/85 text-white w-fit px-4 py-7 lg:px-8 lg:py-15 flex flex-col items-center gap-2 rounded-2xl">
                         <span class=" font-black text-4xl ">25+</span>
                         <p class="text-lg">Year of experience</p>
                     </div>
                 </div>
                 <!-- content div -->
-                <div class="flex flex-col gap-10">
+                <div class="flex flex-col gap-5 lg:gap-10">
                     <!-- child content div -->
                     <div class=" flex flex-col gap-4">
                         <p class="uppercase text-gray-600 font-semibold">WHY CHOOSE US</p>
-                        <h3 class="text-gray-800 font-semibold text-4xl">We know how to manage business globally</h3>
+                        <h3 class="text-gray-800 font-semibold text-2xl lg:text-4xl">We know how to manage business globally</h3>
                     </div>
                     <!-- icon Div -->
                     <div class="flex  flex-col gap-6">
                         <!-- icon1 -->
-                        <div class="flex  gap-6">
+                        <div class="flex flex-col lg:flex-row border lg:border-0 lg:p-0 rounded-xl border-gray-300 p-3  gap-6">
                             <div class="p-4  h-fit bg-black w-fit rounded-xl mt-1">
                                 <img class="w-9" src="./assets/svgs/asset10.svg" alt="">
                             </div>
@@ -205,43 +204,42 @@
                             </div>
                         </div>
                         <!-- icon2 -->
-                        <div class="flex  gap-6">
-                            <div class="p-4  h-fit bg-black w-fit rounded-xl mt-1">
+                        <div class="flex  flex-col lg:flex-row border lg:border-0 lg:p-0 rounded-xl border-gray-300 p-3  gap-6">
+                            <div class="p-4  h-fit bg-black w-fit rounded-xl  mt-1">
                                 <img class="w-9" src="./assets/svgs/asset11.svg" alt="">
                             </div>
                             <div class="flex flex-col gap-1 mb-auto">
                                 <h4 class="font-bold text-2xl">24/7 Customer Support</h4>
                                 <p class="text-lg max-w-lg text-gray-600">Fusce condimentum mattis placerat odio donec
                                     lacus porta torquent, mauris gravida
-                                    rutrum</p>
-
+                                    rutrum
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- Button div -->
-                    <div class="mt-6">
+                    <div class="lg:mt-6">
                         <button
                             class="px-8 py-4 cursor-pointer hover:bg-gray-200/40 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300">Contact
                             Us</button>
                     </div>
                 </div>
-
             </div>
 
             <!-- Our Trusted Clients div -->
-            <div>
+            <div class=" lg:py-0">
                 <!-- 1. content div  -->
                 <div class="flex justify-center items-center gap-5">
-                    <div class="w-full border-b">
+                    <div class=" hidden lg:block w-full border-b">
                         <hr className='w-full text-red-800' />
                     </div>
                     <p class="text-nowrap font-bold uppercase text-gray-800 ">Our Trusted Clients</p>
-                    <div class="w-full  border-t">
+                    <div class="   hidden lg:block w-full  border-t">
                         <hr className='w-full text-red-800' />
                     </div>
                 </div>
                 <!-- 2.image div -->
-                <div class="grid grid-cols-6 gap-5 py-15">
+                <div class="grid grid-cols-2  lg:grid-cols-6 gap-5 pt-6 lg:py-15">
                     <div
                         class="p-4 bg-white rounded-xl shadow-lg border border-gray-200 cursor-pointer hover:scale-106 duration-300 ">
                         <img src="./assets/images/asset12.webp" alt="">
@@ -272,12 +270,12 @@
     </section>
     <!-- Service Section End -->
     <!-- Testimonial section start -->
-    <section class="max-w-340 mx-auto mb-20">
-        <div class="py-15">
+    <section class=" mx-3  max-w-340 lg:mx-auto mb-20">
+        <div class=" py-6 lg:py-15">
             <p
                 class="uppercase px-5 py-1 rounded border-gray-300 border w-fit mx-auto mb-6 font-semibold text-gray-600">
                 Testimonial</p>
-            <h4 class="max-w-150 mx-auto text-center text-5xl uppercase text-gray-800 "> <span
+            <h4 class="max-w-150 mx-auto text-center text-3xl lg:text-5xl uppercase text-gray-800 "> <span
                     class="font-semibold text-gray-900">What They Say About</span> Our Company</h4>
         </div>
         <div class="bg-gray-900/90  flex gap-20 p-20 rounded-3xl">
@@ -311,13 +309,13 @@
         <div class="max-w-340 mx-auto py-20">
             <div class="bg-white grid grid-cols-2">
                 <!-- Icons Section -->
-                <div class="bg-black/90 flex flex-col gap-8 text-white rounded-xl pb-30 py-20 px-15">
+                <!-- <div class="bg-black/90 flex flex-col gap-8 text-white rounded-xl pb-30 py-20 px-15">
                     <div class="pb-10">
                         <p class="uppercase text-lg mb-2 text-gray-300">Get In Touch</p>
                         <h4 class="text-5xl font-bold max-w-lg">Get a Dedicated Account Manager</h4>
                     </div>
                     <div class="flex flex-col gap-10">
-                        <!-- Call -->
+                        Call
                         <div class="flex gap-8 w-fit p-2">
                             <span class="p-5 h-fit bg-gray-600 rounded-xl"><i
                                     class="fa-solid fa-phone-flip text-xl"></i></span>
@@ -326,7 +324,7 @@
                                 <p class="text-gray-400 text-xl">(+256) 2145.2156</p>
                             </div>
                         </div>
-                        <!-- Mail -->
+                        Mail
                         <div class="flex gap-8 w-fit p-2">
                             <span class="p-5 h-fit bg-gray-600 rounded-xl"><i
                                     class="fa-solid fa-envelope text-xl"></i></span>
@@ -335,7 +333,7 @@
                                 <p class="text-gray-400 text-xl">info@Invena.com</p>
                             </div>
                         </div>
-                        <!-- Location -->
+                        Location
                         <div class="flex gap-8 w-fit p-2">
                             <span class="p-5 h-fit bg-gray-600 rounded-xl"><i
                                     class="fa-solid fa-location-dot text-xl"></i></span>
@@ -345,9 +343,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Form Div -->
-                <div class=" p-16 ">
+                <!-- <div class=" p-16 ">
                     <form class="flex flex-col gap-10">
                         <div class="grid grid-cols-2 gap-5">
                             <div class="flex flex-col gap-2 my-1">
@@ -392,20 +390,20 @@
                             class=" w-fit px-8 py-4 cursor-pointer hover:bg-gray-200/40 bg-orange-600 rounded-2xl  text-white hover:text-orange-600 font-semibold duration-300">Submit
                             Message </button>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <!-- Get In Touch End  -->
     <!-- Blog & Article start -->
     <section class="max-w-340 mx-auto py-15">
-        <div class="flex flex-col justify-center items-center pb-15 pt-5 gap-3">
+        <!-- <div class="flex flex-col justify-center items-center pb-15 pt-5 gap-3">
             <p class="uppercase text-lg text-gray-500 ">Blog & Article</p>
             <h5 class="text-4xl font-bold text-gray-800">Recent blog post</h5>
-        </div>
+        </div> -->
         <div class="grid grid-cols-3 gap-15">
             <!-- 1 card -->
-            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+            <!-- <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
                 <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset22.webp" alt="">
                 <div class="flex flex-col gap-2">
                     <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
@@ -423,9 +421,9 @@
                         </span>
                     </button>
                 </div>
-            </div>
+            </div> -->
             <!-- 2 card -->
-            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+            <!-- <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
                 <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset20.webp" alt="">
                 <div class="flex flex-col gap-2">
                     <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
@@ -443,9 +441,9 @@
                         </span>
                     </button>
                 </div>
-            </div>
+            </div> -->
             <!-- 3 card -->
-            <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
+            <!-- <div class="border border-gray-300 flex flex-col gap-7 rounded-2xl p-10">
                 <img class=" border border-gray-300 rounded-2xl" src="./assets/images/asset21.webp" alt="">
                 <div class="flex flex-col gap-2">
                     <p class="text-orange-600 text-lg font-semibold">Business Solution / by David Dolean</p>
@@ -465,9 +463,9 @@
 
                     </button>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div class="flex  justify-center gap-4 items-center py-6">
+        <!-- <div class="flex  justify-center gap-4 items-center py-6">
             <span class="size-2 bg-gray-300 rounded-full "></span>
             <span class="size-2 bg-gray-300 rounded-full "></span>
             <span class="size-5   rounded-full ">
@@ -476,13 +474,13 @@
             <span class="size-2 bg-gray-300 rounded-full "></span>
             <span class="size-2 bg-gray-300 rounded-full "></span>
             <span class="size-2 bg-gray-300 rounded-full "></span>
-        </div>
+        </div> -->
     </section>
     <!-- Blog & Article End -->
     <!-- Subscribe Newsletter start -->
     <section
         style="background-image: url(./assets/images/asset29.webp); background-repeat: no-repeat; background-size: cover; background-position: top;">
-        <div class="max-w-340 mx-auto py-20">
+        <!-- <div class="max-w-340 mx-auto py-20">
             <div class="grid grid-cols-2 gap-10">
                 <div class="flex flex-col gap-5 ">
                     <p class="text-lg text-gray-600">Subscribe Newsletter</p>
@@ -503,7 +501,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     <!-- Subscribe Newsletter End -->
     <!-- footer start -->
@@ -512,7 +510,7 @@
         <div class="max-w-340 mx-auto px-10 py-15">
             <div class="grid grid-cols-3">
                 <!-- logo Div -->
-                <div class="flex flex-col gap-8 mx-auto">
+                <!-- <div class="flex flex-col gap-8 mx-auto">
                     <a href="">
                         <img src="./assets/svgs/asset23.svg" alt="">
                     </a>
@@ -540,16 +538,16 @@
 
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <!-- Links Div -->
                 <div class="flex flex-col gap-8 mx-auto">
-                    <div class="flex flex-col gap-4">
+                    <!-- <div class="flex flex-col gap-4">
                         <p class="text-2xl font-semibold text-white">Quick Links</p>
                         <img class="w-fit" src="./assets/images/asset24.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="flex gap-15">
                         <!-- 5 -->
-                        <ul class="text-gray-400 text-[17px] flex flex-col gap-3">
+                        <!-- <ul class="text-gray-400 text-[17px] flex flex-col gap-3">
                             <li>
                                 <a href="" class="group flex items-center gap-3">
                                     <i class="fa-solid fa-arrow-right group-hover:text-white"></i>
@@ -599,9 +597,9 @@
                                     </span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                         <!-- 4 -->
-                        <ul class="text-gray-400 text-[17px] flex flex-col gap-3">
+                        <!-- <ul class="text-gray-400 text-[17px] flex flex-col gap-3">
                             <li>
                                 <a href="" class="group flex items-center gap-3">
                                     <i class="fa-solid fa-arrow-right group-hover:text-white"></i>
@@ -641,54 +639,54 @@
                                     </span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
                 <!-- Contact Div -->
                 <div class="flex flex-col gap-8  ms-auto">
-                    <div class="flex flex-col gap-4">
+                    <!-- <div class="flex flex-col gap-4">
                         <p class="text-2xl font-semibold text-white">Contact Us</p>
                         <img class="w-fit" src="./assets/images/asset24.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="flex flex-col gap-5">
                         <!-- Call -->
-                        <div class="flex gap-4 w-fit p-2">
+                        <!-- <div class="flex gap-4 w-fit p-2">
                             <span class="p-2 h-fit bg-gray-600 rounded"><i
                                     class="fa-solid fa-phone-flip text-md text-white"></i></span>
                             <div>
                                 <h4 class="text-sm text-white">Call Us 24/7</h4>
                                 <p class="text-gray-400 text-lg ">(+256) 2145.2156</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Mail -->
-                        <div class="flex gap-4 w-fit p-2">
+                        <!-- <div class="flex gap-4 w-fit p-2">
                             <span class="p-2 h-fit bg-gray-600 rounded"><i
                                     class="fa-solid fa-envelope text-md text-white"></i></span>
                             <div>
                                 <h4 class="text-sm text-white">Work with us</h4>
                                 <p class="text-gray-400 text-lg  ">info@Invena.com</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Location -->
-                        <div class="flex gap-4 w-fit p-2">
+                        <!-- <div class="flex gap-4 w-fit p-2">
                             <span class="p-2 h-fit bg-gray-600 rounded"><i
                                     class="fa-solid fa-location-dot text-md text-white"></i></span>
                             <div>
                                 <h4 class="text-sm text-white">Our Location</h4>
                                 <p class="text-gray-400  max-w-70">XYZ Hilton Street, 125 Town United State</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
         <hr class="mb-6 text-gray-600">
-        <div class="max-w-340 mx-auto px-10">
+        <!-- <div class="max-w-340 mx-auto px-10">
             <div class="flex justify-between pb-6">
                 <p class="text-white">Invena - Copyright 2026. All rights reserved.</p>
                 <p class="text-white">Privacy Policy Terms & Condition</p>
             </div>
-        </div>
+        </div> -->
     </footer>
     <!-- footer End -->
 </body>
