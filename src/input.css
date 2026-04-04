@@ -2,6 +2,13 @@
 
 @theme {
   --breakpoint-xs: 30rem;
-  /* 480px  */
+  /* xs 480px  */
+  /* sm 640px */
+  /* md 768 px */
+  /* lg 1024 px */
+  /* xl 1280 px */
+  /* 2xl 1538 px */
+
+  
 
 }
