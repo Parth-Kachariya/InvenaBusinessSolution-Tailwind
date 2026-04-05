@@ -234,6 +234,9 @@
   .col-span-1 {
     grid-column: span 1 / span 1;
   }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
   .mx-3 {
     margin-inline: calc(var(--spacing) * 3);
   }
@@ -251,6 +254,9 @@
   }
   .ms-2 {
     margin-inline-start: calc(var(--spacing) * 2);
+  }
+  .me-2 {
+    margin-inline-end: calc(var(--spacing) * 2);
   }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
